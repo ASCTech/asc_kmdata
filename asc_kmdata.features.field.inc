@@ -100,7 +100,10 @@ function asc_kmdata_field_default_fields() {
       'locked' => '0',
       'module' => 'list',
       'settings' => array(
-        'allowed_values' => array(),
+        'allowed_values' => array(
+          0 => '',
+          1 => '',
+        ),
         'allowed_values_function' => '',
       ),
       'translatable' => '0',
@@ -108,7 +111,11 @@ function asc_kmdata_field_default_fields() {
     ),
     'field_instance' => array(
       'bundle' => 'asc_people',
-      'default_value' => NULL,
+      'default_value' => array(
+        0 => array(
+          'value' => 0,
+        ),
+      ),
       'deleted' => '0',
       'description' => '',
       'display' => array(
@@ -133,16 +140,17 @@ function asc_kmdata_field_default_fields() {
       ),
       'entity_type' => 'node',
       'field_name' => 'field_kmdata_use_email',
-      'label' => 'field_kmdata_use_email',
-      'required' => FALSE,
+      'label' => 'Use Email from KMData',
+      'required' => 0,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
       'visibility' => 'hidden',
       'widget' => array(
+        'active' => 1,
         'module' => 'options',
         'settings' => array(
-          'display_label' => 0,
+          'display_label' => 1,
         ),
         'type' => 'options_onoff',
         'weight' => '13',
@@ -167,7 +175,10 @@ function asc_kmdata_field_default_fields() {
       'locked' => '0',
       'module' => 'list',
       'settings' => array(
-        'allowed_values' => array(),
+        'allowed_values' => array(
+          0 => '',
+          1 => '',
+        ),
         'allowed_values_function' => '',
       ),
       'translatable' => '0',
@@ -175,7 +186,11 @@ function asc_kmdata_field_default_fields() {
     ),
     'field_instance' => array(
       'bundle' => 'asc_people',
-      'default_value' => NULL,
+      'default_value' => array(
+        0 => array(
+          'value' => 0,
+        ),
+      ),
       'deleted' => '0',
       'description' => '',
       'display' => array(
@@ -200,16 +215,17 @@ function asc_kmdata_field_default_fields() {
       ),
       'entity_type' => 'node',
       'field_name' => 'field_kmdata_use_first_name',
-      'label' => 'field_kmdata_use_first_name',
-      'required' => FALSE,
+      'label' => 'Use First Name from KMdata',
+      'required' => 0,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
       'visibility' => 'hidden',
       'widget' => array(
+        'active' => 1,
         'module' => 'options',
         'settings' => array(
-          'display_label' => 0,
+          'display_label' => 1,
         ),
         'type' => 'options_onoff',
         'weight' => '1',
@@ -234,7 +250,10 @@ function asc_kmdata_field_default_fields() {
       'locked' => '0',
       'module' => 'list',
       'settings' => array(
-        'allowed_values' => array(),
+        'allowed_values' => array(
+          0 => '',
+          1 => '',
+        ),
         'allowed_values_function' => '',
       ),
       'translatable' => '0',
@@ -242,7 +261,11 @@ function asc_kmdata_field_default_fields() {
     ),
     'field_instance' => array(
       'bundle' => 'asc_people',
-      'default_value' => NULL,
+      'default_value' => array(
+        0 => array(
+          'value' => 0,
+        ),
+      ),
       'deleted' => '0',
       'description' => '',
       'display' => array(
@@ -267,16 +290,17 @@ function asc_kmdata_field_default_fields() {
       ),
       'entity_type' => 'node',
       'field_name' => 'field_kmdata_use_last_name',
-      'label' => 'field_kmdata_use_last_name',
-      'required' => FALSE,
+      'label' => 'Use Last Name from KMData',
+      'required' => 0,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
       'visibility' => 'hidden',
       'widget' => array(
+        'active' => 1,
         'module' => 'options',
         'settings' => array(
-          'display_label' => 0,
+          'display_label' => 1,
         ),
         'type' => 'options_onoff',
         'weight' => '3',
@@ -301,7 +325,10 @@ function asc_kmdata_field_default_fields() {
       'locked' => '0',
       'module' => 'list',
       'settings' => array(
-        'allowed_values' => array(),
+        'allowed_values' => array(
+          0 => '',
+          1 => '',
+        ),
         'allowed_values_function' => '',
       ),
       'translatable' => '0',
@@ -309,7 +336,11 @@ function asc_kmdata_field_default_fields() {
     ),
     'field_instance' => array(
       'bundle' => 'asc_people',
-      'default_value' => NULL,
+      'default_value' => array(
+        0 => array(
+          'value' => 0,
+        ),
+      ),
       'deleted' => '0',
       'description' => '',
       'display' => array(
@@ -334,16 +365,17 @@ function asc_kmdata_field_default_fields() {
       ),
       'entity_type' => 'node',
       'field_name' => 'field_kmdata_use_office_address',
-      'label' => 'field_kmdata_use_office_address',
-      'required' => FALSE,
+      'label' => 'Use Office Address from KMData',
+      'required' => 0,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
       'visibility' => 'hidden',
       'widget' => array(
+        'active' => 1,
         'module' => 'options',
         'settings' => array(
-          'display_label' => 0,
+          'display_label' => 1,
         ),
         'type' => 'options_onoff',
         'weight' => '18',
@@ -368,7 +400,10 @@ function asc_kmdata_field_default_fields() {
       'locked' => '0',
       'module' => 'list',
       'settings' => array(
-        'allowed_values' => array(),
+        'allowed_values' => array(
+          0 => '',
+          1 => '',
+        ),
         'allowed_values_function' => '',
       ),
       'translatable' => '0',
@@ -376,7 +411,11 @@ function asc_kmdata_field_default_fields() {
     ),
     'field_instance' => array(
       'bundle' => 'asc_people',
-      'default_value' => NULL,
+      'default_value' => array(
+        0 => array(
+          'value' => 0,
+        ),
+      ),
       'deleted' => '0',
       'description' => '',
       'display' => array(
@@ -401,16 +440,17 @@ function asc_kmdata_field_default_fields() {
       ),
       'entity_type' => 'node',
       'field_name' => 'field_kmdata_use_opic',
-      'label' => 'field_kmdata_use_opic',
-      'required' => FALSE,
+      'label' => 'Use Name.# for OPIC from KMData',
+      'required' => 0,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
       'visibility' => 'hidden',
       'widget' => array(
+        'active' => 1,
         'module' => 'options',
         'settings' => array(
-          'display_label' => 0,
+          'display_label' => 1,
         ),
         'type' => 'options_onoff',
         'weight' => '6',
@@ -435,7 +475,10 @@ function asc_kmdata_field_default_fields() {
       'locked' => '0',
       'module' => 'list',
       'settings' => array(
-        'allowed_values' => array(),
+        'allowed_values' => array(
+          0 => '',
+          1 => '',
+        ),
         'allowed_values_function' => '',
       ),
       'translatable' => '0',
@@ -443,7 +486,11 @@ function asc_kmdata_field_default_fields() {
     ),
     'field_instance' => array(
       'bundle' => 'asc_people',
-      'default_value' => NULL,
+      'default_value' => array(
+        0 => array(
+          'value' => 0,
+        ),
+      ),
       'deleted' => '0',
       'description' => '',
       'display' => array(
@@ -468,16 +515,17 @@ function asc_kmdata_field_default_fields() {
       ),
       'entity_type' => 'node',
       'field_name' => 'field_kmdata_use_phone_number',
-      'label' => 'field_kmdata_use_phone_number',
-      'required' => FALSE,
+      'label' => 'Use Phone Number from KMData',
+      'required' => 0,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
       'visibility' => 'hidden',
       'widget' => array(
+        'active' => 1,
         'module' => 'options',
         'settings' => array(
-          'display_label' => 0,
+          'display_label' => 1,
         ),
         'type' => 'options_onoff',
         'weight' => '15',
@@ -502,7 +550,10 @@ function asc_kmdata_field_default_fields() {
       'locked' => '0',
       'module' => 'list',
       'settings' => array(
-        'allowed_values' => array(),
+        'allowed_values' => array(
+          0 => '',
+          1 => '',
+        ),
         'allowed_values_function' => '',
       ),
       'translatable' => '0',
@@ -510,7 +561,11 @@ function asc_kmdata_field_default_fields() {
     ),
     'field_instance' => array(
       'bundle' => 'asc_people',
-      'default_value' => NULL,
+      'default_value' => array(
+        0 => array(
+          'value' => 0,
+        ),
+      ),
       'deleted' => '0',
       'description' => '',
       'display' => array(
@@ -535,16 +590,17 @@ function asc_kmdata_field_default_fields() {
       ),
       'entity_type' => 'node',
       'field_name' => 'field_kmdata_use_working_title',
-      'label' => 'field_kmdata_use_working_title',
-      'required' => FALSE,
+      'label' => 'Use Title from KMData',
+      'required' => 0,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
       'visibility' => 'hidden',
       'widget' => array(
+        'active' => 1,
         'module' => 'options',
         'settings' => array(
-          'display_label' => 0,
+          'display_label' => 1,
         ),
         'type' => 'options_onoff',
         'weight' => '11',
@@ -554,13 +610,13 @@ function asc_kmdata_field_default_fields() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('field_kmdata_use_email');
-  t('field_kmdata_use_first_name');
-  t('field_kmdata_use_last_name');
-  t('field_kmdata_use_office_address');
-  t('field_kmdata_use_opic');
-  t('field_kmdata_use_phone_number');
-  t('field_kmdata_use_working_title');
+  t('Use Email from KMData');
+  t('Use First Name from KMdata');
+  t('Use Last Name from KMData');
+  t('Use Name.# for OPIC from KMData');
+  t('Use Office Address from KMData');
+  t('Use Phone Number from KMData');
+  t('Use Title from KMData');
   t('kmdata_person_id');
 
   return $fields;
